@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0DC649020F53D4300F1F54C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC648F20F53D4300F1F54C /* AppDelegate.swift */; };
+		D0DC64A520F53D4400F1F54C /* TonyburgersAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC64A420F53D4400F1F54C /* TonyburgersAppTests.swift */; };
+		D0DC64B020F53D4400F1F54C /* TonyburgersAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC64AF20F53D4400F1F54C /* TonyburgersAppUITests.swift */; };
+		D0DC64DE20F53D8300F1F54C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC64BF20F53D8000F1F54C /* Category.swift */; };
+		D0DC64DF20F53D8300F1F54C /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC64C020F53D8000F1F54C /* MainScreenViewController.swift */; };
+		D0DC64E220F53D8300F1F54C /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC64C320F53D8000F1F54C /* Customer.swift */; };
+		D0DC64E320F53D8300F1F54C /* Network Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC64C420F53D8000F1F54C /* Network Controller.swift */; };
+		D0DC64E520F53D8300F1F54C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DC64C620F53D8000F1F54C /* Assets.xcassets */; };
+		D0DC64E620F53D8300F1F54C /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC64C720F53D8000F1F54C /* CartViewController.swift */; };
+		D0DC64E720F53D8300F1F54C /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC64C820F53D8000F1F54C /* Food.swift */; };
+		D0DC64E820F53D8300F1F54C /* CartItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC64C920F53D8000F1F54C /* CartItemCell.swift */; };
+		D0DC64E920F53D8300F1F54C /* FirebaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC64CA20F53D8000F1F54C /* FirebaseController.swift */; };
+		D0DC64ED20F53D8300F1F54C /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC64CE20F53D8100F1F54C /* ItemsTableViewController.swift */; };
+		D0DC64EE20F53D8300F1F54C /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC64CF20F53D8100F1F54C /* Ingredient.swift */; };
+		D0DC64EF20F53D8300F1F54C /* LocationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC64D020F53D8100F1F54C /* LocationsTableViewController.swift */; };
+		D0DC64F020F53D8300F1F54C /* ToppingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC64D120F53D8100F1F54C /* ToppingCell.swift */; };
+		D0DC64F320F53D8300F1F54C /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC64D420F53D8200F1F54C /* Order.swift */; };
+		D0DC64F420F53D8300F1F54C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC64D520F53D8200F1F54C /* Location.swift */; };
+		D0DC64F620F53D8300F1F54C /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC64D720F53D8200F1F54C /* InfoViewController.swift */; };
+		D0DC64FA20F53D8300F1F54C /* CartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC64DB20F53D8200F1F54C /* CartTableViewController.swift */; };
+		D0DC64FC20F53DE200F1F54C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DC64FB20F53DE200F1F54C /* LaunchScreen.storyboard */; };
+		D0DC64FE20F53DE700F1F54C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DC64FD20F53DE700F1F54C /* Main.storyboard */; };
+		D0DC650920F5409100F1F54C /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC650820F5409100F1F54C /* StartViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0DC64A120F53D4400F1F54C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0DC648420F53D4300F1F54C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0DC648B20F53D4300F1F54C;
+			remoteInfo = TonyburgersApp;
+		};
+		D0DC64AC20F53D4400F1F54C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0DC648420F53D4300F1F54C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0DC648B20F53D4300F1F54C;
+			remoteInfo = TonyburgersApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0DC648C20F53D4300F1F54C /* TonyburgersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TonyburgersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0DC648F20F53D4300F1F54C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0DC649B20F53D4400F1F54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0DC64A020F53D4400F1F54C /* TonyburgersAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TonyburgersAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0DC64A420F53D4400F1F54C /* TonyburgersAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TonyburgersAppTests.swift; sourceTree = "<group>"; };
+		D0DC64A620F53D4400F1F54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0DC64AB20F53D4400F1F54C /* TonyburgersAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TonyburgersAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0DC64AF20F53D4400F1F54C /* TonyburgersAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TonyburgersAppUITests.swift; sourceTree = "<group>"; };
+		D0DC64B120F53D4400F1F54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0DC64BF20F53D8000F1F54C /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		D0DC64C020F53D8000F1F54C /* MainScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		D0DC64C320F53D8000F1F54C /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		D0DC64C420F53D8000F1F54C /* Network Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Network Controller.swift"; sourceTree = "<group>"; };
+		D0DC64C620F53D8000F1F54C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0DC64C720F53D8000F1F54C /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		D0DC64C820F53D8000F1F54C /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		D0DC64C920F53D8000F1F54C /* CartItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartItemCell.swift; sourceTree = "<group>"; };
+		D0DC64CA20F53D8000F1F54C /* FirebaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseController.swift; sourceTree = "<group>"; };
+		D0DC64CE20F53D8100F1F54C /* ItemsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
+		D0DC64CF20F53D8100F1F54C /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		D0DC64D020F53D8100F1F54C /* LocationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsTableViewController.swift; sourceTree = "<group>"; };
+		D0DC64D120F53D8100F1F54C /* ToppingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToppingCell.swift; sourceTree = "<group>"; };
+		D0DC64D420F53D8200F1F54C /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		D0DC64D520F53D8200F1F54C /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		D0DC64D720F53D8200F1F54C /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		D0DC64DB20F53D8200F1F54C /* CartTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableViewController.swift; sourceTree = "<group>"; };
+		D0DC64FB20F53DE200F1F54C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0DC64FD20F53DE700F1F54C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D0DC650820F5409100F1F54C /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0DC648920F53D4300F1F54C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0DC649D20F53D4400F1F54C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0DC64A820F53D4400F1F54C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0DC648320F53D4300F1F54C = {
+			isa = PBXGroup;
+			children = (
+				D0DC648E20F53D4300F1F54C /* TonyburgersApp */,
+				D0DC64A320F53D4400F1F54C /* TonyburgersAppTests */,
+				D0DC64AE20F53D4400F1F54C /* TonyburgersAppUITests */,
+				D0DC648D20F53D4300F1F54C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0DC648D20F53D4300F1F54C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC648C20F53D4300F1F54C /* TonyburgersApp.app */,
+				D0DC64A020F53D4400F1F54C /* TonyburgersAppTests.xctest */,
+				D0DC64AB20F53D4400F1F54C /* TonyburgersAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0DC648E20F53D4300F1F54C /* TonyburgersApp */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC64FF20F53E0400F1F54C /* Storyboards */,
+				D0DC650320F53EA100F1F54C /* Models */,
+				D0DC650020F53E1700F1F54C /* Controllers */,
+				D0DC650120F53E3E00F1F54C /* View Controllers */,
+				D0DC64C620F53D8000F1F54C /* Assets.xcassets */,
+				D0DC648F20F53D4300F1F54C /* AppDelegate.swift */,
+				D0DC650820F5409100F1F54C /* StartViewController.swift */,
+				D0DC649B20F53D4400F1F54C /* Info.plist */,
+			);
+			path = TonyburgersApp;
+			sourceTree = "<group>";
+		};
+		D0DC64A320F53D4400F1F54C /* TonyburgersAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC64A420F53D4400F1F54C /* TonyburgersAppTests.swift */,
+				D0DC64A620F53D4400F1F54C /* Info.plist */,
+			);
+			path = TonyburgersAppTests;
+			sourceTree = "<group>";
+		};
+		D0DC64AE20F53D4400F1F54C /* TonyburgersAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC64AF20F53D4400F1F54C /* TonyburgersAppUITests.swift */,
+				D0DC64B120F53D4400F1F54C /* Info.plist */,
+			);
+			path = TonyburgersAppUITests;
+			sourceTree = "<group>";
+		};
+		D0DC64FF20F53E0400F1F54C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC64FB20F53DE200F1F54C /* LaunchScreen.storyboard */,
+				D0DC64FD20F53DE700F1F54C /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D0DC650020F53E1700F1F54C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC64CA20F53D8000F1F54C /* FirebaseController.swift */,
+				D0DC64C420F53D8000F1F54C /* Network Controller.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D0DC650120F53E3E00F1F54C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC650420F53EEC00F1F54C /* Cells */,
+				D0DC64DB20F53D8200F1F54C /* CartTableViewController.swift */,
+				D0DC64C720F53D8000F1F54C /* CartViewController.swift */,
+				D0DC64CE20F53D8100F1F54C /* ItemsTableViewController.swift */,
+				D0DC64D720F53D8200F1F54C /* InfoViewController.swift */,
+				D0DC64D020F53D8100F1F54C /* LocationsTableViewController.swift */,
+				D0DC64C020F53D8000F1F54C /* MainScreenViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D0DC650320F53EA100F1F54C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC64C820F53D8000F1F54C /* Food.swift */,
+				D0DC64D420F53D8200F1F54C /* Order.swift */,
+				D0DC64C320F53D8000F1F54C /* Customer.swift */,
+				D0DC64D520F53D8200F1F54C /* Location.swift */,
+				D0DC64CF20F53D8100F1F54C /* Ingredient.swift */,
+				D0DC64BF20F53D8000F1F54C /* Category.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D0DC650420F53EEC00F1F54C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC64D120F53D8100F1F54C /* ToppingCell.swift */,
+				D0DC64C920F53D8000F1F54C /* CartItemCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0DC648B20F53D4300F1F54C /* TonyburgersApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0DC64B420F53D4400F1F54C /* Build configuration list for PBXNativeTarget "TonyburgersApp" */;
+			buildPhases = (
+				D0DC648820F53D4300F1F54C /* Sources */,
+				D0DC648920F53D4300F1F54C /* Frameworks */,
+				D0DC648A20F53D4300F1F54C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TonyburgersApp;
+			productName = TonyburgersApp;
+			productReference = D0DC648C20F53D4300F1F54C /* TonyburgersApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0DC649F20F53D4400F1F54C /* TonyburgersAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0DC64B720F53D4400F1F54C /* Build configuration list for PBXNativeTarget "TonyburgersAppTests" */;
+			buildPhases = (
+				D0DC649C20F53D4400F1F54C /* Sources */,
+				D0DC649D20F53D4400F1F54C /* Frameworks */,
+				D0DC649E20F53D4400F1F54C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0DC64A220F53D4400F1F54C /* PBXTargetDependency */,
+			);
+			name = TonyburgersAppTests;
+			productName = TonyburgersAppTests;
+			productReference = D0DC64A020F53D4400F1F54C /* TonyburgersAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0DC64AA20F53D4400F1F54C /* TonyburgersAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0DC64BA20F53D4400F1F54C /* Build configuration list for PBXNativeTarget "TonyburgersAppUITests" */;
+			buildPhases = (
+				D0DC64A720F53D4400F1F54C /* Sources */,
+				D0DC64A820F53D4400F1F54C /* Frameworks */,
+				D0DC64A920F53D4400F1F54C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0DC64AD20F53D4400F1F54C /* PBXTargetDependency */,
+			);
+			name = TonyburgersAppUITests;
+			productName = TonyburgersAppUITests;
+			productReference = D0DC64AB20F53D4400F1F54C /* TonyburgersAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0DC648420F53D4300F1F54C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Justin Carver";
+				TargetAttributes = {
+					D0DC648B20F53D4300F1F54C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					D0DC649F20F53D4400F1F54C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D0DC648B20F53D4300F1F54C;
+					};
+					D0DC64AA20F53D4400F1F54C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D0DC648B20F53D4300F1F54C;
+					};
+				};
+			};
+			buildConfigurationList = D0DC648720F53D4300F1F54C /* Build configuration list for PBXProject "TonyburgersApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0DC648320F53D4300F1F54C;
+			productRefGroup = D0DC648D20F53D4300F1F54C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0DC648B20F53D4300F1F54C /* TonyburgersApp */,
+				D0DC649F20F53D4400F1F54C /* TonyburgersAppTests */,
+				D0DC64AA20F53D4400F1F54C /* TonyburgersAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0DC648A20F53D4300F1F54C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DC64FE20F53DE700F1F54C /* Main.storyboard in Resources */,
+				D0DC64FC20F53DE200F1F54C /* LaunchScreen.storyboard in Resources */,
+				D0DC64E520F53D8300F1F54C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0DC649E20F53D4400F1F54C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0DC64A920F53D4400F1F54C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0DC648820F53D4300F1F54C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DC64EF20F53D8300F1F54C /* LocationsTableViewController.swift in Sources */,
+				D0DC64DF20F53D8300F1F54C /* MainScreenViewController.swift in Sources */,
+				D0DC64F620F53D8300F1F54C /* InfoViewController.swift in Sources */,
+				D0DC64F320F53D8300F1F54C /* Order.swift in Sources */,
+				D0DC64E820F53D8300F1F54C /* CartItemCell.swift in Sources */,
+				D0DC650920F5409100F1F54C /* StartViewController.swift in Sources */,
+				D0DC64FA20F53D8300F1F54C /* CartTableViewController.swift in Sources */,
+				D0DC64E320F53D8300F1F54C /* Network Controller.swift in Sources */,
+				D0DC64F020F53D8300F1F54C /* ToppingCell.swift in Sources */,
+				D0DC64E720F53D8300F1F54C /* Food.swift in Sources */,
+				D0DC64E220F53D8300F1F54C /* Customer.swift in Sources */,
+				D0DC64EE20F53D8300F1F54C /* Ingredient.swift in Sources */,
+				D0DC64E920F53D8300F1F54C /* FirebaseController.swift in Sources */,
+				D0DC64F420F53D8300F1F54C /* Location.swift in Sources */,
+				D0DC64E620F53D8300F1F54C /* CartViewController.swift in Sources */,
+				D0DC649020F53D4300F1F54C /* AppDelegate.swift in Sources */,
+				D0DC64ED20F53D8300F1F54C /* ItemsTableViewController.swift in Sources */,
+				D0DC64DE20F53D8300F1F54C /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0DC649C20F53D4400F1F54C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DC64A520F53D4400F1F54C /* TonyburgersAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0DC64A720F53D4400F1F54C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DC64B020F53D4400F1F54C /* TonyburgersAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0DC64A220F53D4400F1F54C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0DC648B20F53D4300F1F54C /* TonyburgersApp */;
+			targetProxy = D0DC64A120F53D4400F1F54C /* PBXContainerItemProxy */;
+		};
+		D0DC64AD20F53D4400F1F54C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0DC648B20F53D4300F1F54C /* TonyburgersApp */;
+			targetProxy = D0DC64AC20F53D4400F1F54C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D0DC64B220F53D4400F1F54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0DC64B320F53D4400F1F54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0DC64B520F53D4400F1F54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWLLFTCWHP;
+				INFOPLIST_FILE = TonyburgersApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JustinCarver.TonyburgersApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0DC64B620F53D4400F1F54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWLLFTCWHP;
+				INFOPLIST_FILE = TonyburgersApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JustinCarver.TonyburgersApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0DC64B820F53D4400F1F54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWLLFTCWHP;
+				INFOPLIST_FILE = TonyburgersAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JustinCarver.TonyburgersAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TonyburgersApp.app/TonyburgersApp";
+			};
+			name = Debug;
+		};
+		D0DC64B920F53D4400F1F54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWLLFTCWHP;
+				INFOPLIST_FILE = TonyburgersAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JustinCarver.TonyburgersAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TonyburgersApp.app/TonyburgersApp";
+			};
+			name = Release;
+		};
+		D0DC64BB20F53D4400F1F54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWLLFTCWHP;
+				INFOPLIST_FILE = TonyburgersAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JustinCarver.TonyburgersAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TonyburgersApp;
+			};
+			name = Debug;
+		};
+		D0DC64BC20F53D4400F1F54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWLLFTCWHP;
+				INFOPLIST_FILE = TonyburgersAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JustinCarver.TonyburgersAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TonyburgersApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0DC648720F53D4300F1F54C /* Build configuration list for PBXProject "TonyburgersApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0DC64B220F53D4400F1F54C /* Debug */,
+				D0DC64B320F53D4400F1F54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0DC64B420F53D4400F1F54C /* Build configuration list for PBXNativeTarget "TonyburgersApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0DC64B520F53D4400F1F54C /* Debug */,
+				D0DC64B620F53D4400F1F54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0DC64B720F53D4400F1F54C /* Build configuration list for PBXNativeTarget "TonyburgersAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0DC64B820F53D4400F1F54C /* Debug */,
+				D0DC64B920F53D4400F1F54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0DC64BA20F53D4400F1F54C /* Build configuration list for PBXNativeTarget "TonyburgersAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0DC64BB20F53D4400F1F54C /* Debug */,
+				D0DC64BC20F53D4400F1F54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0DC648420F53D4300F1F54C /* Project object */;
+}
