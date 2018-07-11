@@ -8,6 +8,12 @@
 
 import Foundation
 class Customer {
+    private let kOrders = "Orders"
+    private let kEmail = "Email"
+    private let kName = "Name"
+    private let kPhone = "Phone"
+    private let kBirthday = "Birthday"
+    
     private var orders: [Order]
     private var email: String
     private var name: String
@@ -20,6 +26,33 @@ class Customer {
         self.name = name
         self.phone = phone
         self.birthday = birthday
+    }
+    
+    init?(dictionary: [String: Any]) {
+        guard let orders = dictionary[kOrders] as? [Order],
+        let email = dictionary[kEmail] as? String,
+        let name = dictionary[kName] as? String,
+        let phone = dictionary[kPhone] as? Int,
+        let birthday = dictionary[kBirthday] as? Date
+        else { return nil }
+        
+        self.orders = orders
+        self.email = email
+        self.name = name
+        self.phone = phone
+        self.birthday = birthday
+    }
+    
+    var jsonValue: [String: Any] {
+        if self.orders.isEmpty {
+            return [kEmail: self.email, kPhone: "\(self.phone)", kName: self.name, kBirthday: self.birthday.description]
+        } else {
+            return [kOrders: self.orders, kEmail: self.email, kPhone: "\(self.phone)", kName: self.name, kBirthday: self.birthday.description]
+        }
+    }
+    
+    var jsonData: Data? {
+        return try! JSONSerialization.data(withJSONObject: self.jsonValue, options: .prettyPrinted)
     }
     
     // get methods \\

@@ -1,0 +1,6 @@
+framework module Pods_TonyburgersAppUITests {
+  umbrella header "Pods-TonyburgersAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

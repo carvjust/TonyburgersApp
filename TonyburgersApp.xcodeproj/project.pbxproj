@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49A094D47ED1362965FCD690 /* Pods_TonyburgersApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3D56A881CFD1C825AEF749 /* Pods_TonyburgersApp.framework */; };
+		52A4D8F21C06CA214120DCC0 /* Pods_TonyburgersAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 117B0022E4E3C0B3D6813A9C /* Pods_TonyburgersAppTests.framework */; };
+		65C4E13A8891B88EF07E6FDD /* Pods_TonyburgersAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B459B62A5A213B3310470B /* Pods_TonyburgersAppUITests.framework */; };
+		D0A72FC320F544B60017D925 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0A72FC220F544B60017D925 /* GoogleService-Info.plist */; };
 		D0DC649020F53D4300F1F54C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC648F20F53D4300F1F54C /* AppDelegate.swift */; };
 		D0DC64A520F53D4400F1F54C /* TonyburgersAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC64A420F53D4400F1F54C /* TonyburgersAppTests.swift */; };
 		D0DC64B020F53D4400F1F54C /* TonyburgersAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC64AF20F53D4400F1F54C /* TonyburgersAppUITests.swift */; };
@@ -50,6 +54,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06D4B1B8FDDB15D3FE604CE0 /* Pods-TonyburgersAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TonyburgersAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TonyburgersAppUITests/Pods-TonyburgersAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		117B0022E4E3C0B3D6813A9C /* Pods_TonyburgersAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TonyburgersAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3D56A881CFD1C825AEF749 /* Pods_TonyburgersApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TonyburgersApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5EC58B5D4E6EFB5C62F12D /* Pods-TonyburgersApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TonyburgersApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TonyburgersApp/Pods-TonyburgersApp.release.xcconfig"; sourceTree = "<group>"; };
+		9A18C6E42F66CEBB727E41B7 /* Pods-TonyburgersAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TonyburgersAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TonyburgersAppUITests/Pods-TonyburgersAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D0A72FC220F544B60017D925 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D0DC648C20F53D4300F1F54C /* TonyburgersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TonyburgersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0DC648F20F53D4300F1F54C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0DC649B20F53D4400F1F54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,6 +89,10 @@
 		D0DC64FB20F53DE200F1F54C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0DC64FD20F53DE700F1F54C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D0DC650820F5409100F1F54C /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		D33C3F10764C1F6456EB68A9 /* Pods-TonyburgersApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TonyburgersApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TonyburgersApp/Pods-TonyburgersApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E2E8675D814112A9878B969E /* Pods-TonyburgersAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TonyburgersAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TonyburgersAppTests/Pods-TonyburgersAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0B459B62A5A213B3310470B /* Pods_TonyburgersAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TonyburgersAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5384803DACA494782E285B1 /* Pods-TonyburgersAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TonyburgersAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TonyburgersAppTests/Pods-TonyburgersAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A094D47ED1362965FCD690 /* Pods_TonyburgersApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A4D8F21C06CA214120DCC0 /* Pods_TonyburgersAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,12 +116,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65C4E13A8891B88EF07E6FDD /* Pods_TonyburgersAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F564BDDB5CCA54DCD9EDC92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B3D56A881CFD1C825AEF749 /* Pods_TonyburgersApp.framework */,
+				117B0022E4E3C0B3D6813A9C /* Pods_TonyburgersAppTests.framework */,
+				F0B459B62A5A213B3310470B /* Pods_TonyburgersAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D0DC648320F53D4300F1F54C = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +140,8 @@
 				D0DC64A320F53D4400F1F54C /* TonyburgersAppTests */,
 				D0DC64AE20F53D4400F1F54C /* TonyburgersAppUITests */,
 				D0DC648D20F53D4300F1F54C /* Products */,
+				FCCADD015922C64D5469E467 /* Pods */,
+				3F564BDDB5CCA54DCD9EDC92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +165,7 @@
 				D0DC64C620F53D8000F1F54C /* Assets.xcassets */,
 				D0DC648F20F53D4300F1F54C /* AppDelegate.swift */,
 				D0DC650820F5409100F1F54C /* StartViewController.swift */,
+				D0A72FC220F544B60017D925 /* GoogleService-Info.plist */,
 				D0DC649B20F53D4400F1F54C /* Info.plist */,
 			);
 			path = TonyburgersApp;
@@ -213,6 +243,19 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		FCCADD015922C64D5469E467 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D33C3F10764C1F6456EB68A9 /* Pods-TonyburgersApp.debug.xcconfig */,
+				5E5EC58B5D4E6EFB5C62F12D /* Pods-TonyburgersApp.release.xcconfig */,
+				E2E8675D814112A9878B969E /* Pods-TonyburgersAppTests.debug.xcconfig */,
+				F5384803DACA494782E285B1 /* Pods-TonyburgersAppTests.release.xcconfig */,
+				06D4B1B8FDDB15D3FE604CE0 /* Pods-TonyburgersAppUITests.debug.xcconfig */,
+				9A18C6E42F66CEBB727E41B7 /* Pods-TonyburgersAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -220,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0DC64B420F53D4400F1F54C /* Build configuration list for PBXNativeTarget "TonyburgersApp" */;
 			buildPhases = (
+				8FD3BCFF9CE77595CF7CB3DB /* [CP] Check Pods Manifest.lock */,
 				D0DC648820F53D4300F1F54C /* Sources */,
 				D0DC648920F53D4300F1F54C /* Frameworks */,
 				D0DC648A20F53D4300F1F54C /* Resources */,
+				9F4B60B5D75436496C1C4FC3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,6 +282,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0DC64B720F53D4400F1F54C /* Build configuration list for PBXNativeTarget "TonyburgersAppTests" */;
 			buildPhases = (
+				303D01F8E10D4BE3D9E1D6DB /* [CP] Check Pods Manifest.lock */,
 				D0DC649C20F53D4400F1F54C /* Sources */,
 				D0DC649D20F53D4400F1F54C /* Frameworks */,
 				D0DC649E20F53D4400F1F54C /* Resources */,
@@ -255,6 +301,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0DC64BA20F53D4400F1F54C /* Build configuration list for PBXNativeTarget "TonyburgersAppUITests" */;
 			buildPhases = (
+				67B1EAD58AD48CC1446FB2AF /* [CP] Check Pods Manifest.lock */,
 				D0DC64A720F53D4400F1F54C /* Sources */,
 				D0DC64A820F53D4400F1F54C /* Frameworks */,
 				D0DC64A920F53D4400F1F54C /* Resources */,
@@ -318,6 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0DC64FE20F53DE700F1F54C /* Main.storyboard in Resources */,
+				D0A72FC320F544B60017D925 /* GoogleService-Info.plist in Resources */,
 				D0DC64FC20F53DE200F1F54C /* LaunchScreen.storyboard in Resources */,
 				D0DC64E520F53D8300F1F54C /* Assets.xcassets in Resources */,
 			);
@@ -338,6 +386,91 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		303D01F8E10D4BE3D9E1D6DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TonyburgersAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67B1EAD58AD48CC1446FB2AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TonyburgersAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FD3BCFF9CE77595CF7CB3DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TonyburgersApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F4B60B5D75436496C1C4FC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TonyburgersApp/Pods-TonyburgersApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Moltin/Moltin.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moltin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TonyburgersApp/Pods-TonyburgersApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D0DC648820F53D4300F1F54C /* Sources */ = {
@@ -513,6 +646,7 @@
 		};
 		D0DC64B520F53D4400F1F54C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D33C3F10764C1F6456EB68A9 /* Pods-TonyburgersApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +665,7 @@
 		};
 		D0DC64B620F53D4400F1F54C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5EC58B5D4E6EFB5C62F12D /* Pods-TonyburgersApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -549,6 +684,7 @@
 		};
 		D0DC64B820F53D4400F1F54C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E8675D814112A9878B969E /* Pods-TonyburgersAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -570,6 +706,7 @@
 		};
 		D0DC64B920F53D4400F1F54C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5384803DACA494782E285B1 /* Pods-TonyburgersAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -591,6 +728,7 @@
 		};
 		D0DC64BB20F53D4400F1F54C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06D4B1B8FDDB15D3FE604CE0 /* Pods-TonyburgersAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -611,6 +749,7 @@
 		};
 		D0DC64BC20F53D4400F1F54C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A18C6E42F66CEBB727E41B7 /* Pods-TonyburgersAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
